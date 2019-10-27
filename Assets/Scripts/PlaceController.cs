@@ -25,6 +25,9 @@ public class PlaceController : MonoBehaviour
     private int hitCounter;
 
     private bool placementPoseIsValid = false;
+
+    // 调试用
+    public bool SetIndicatorDisplay = true;
     
     void Awake() {
         arOrigin = GetComponent<ARSessionOrigin>();
@@ -72,7 +75,7 @@ public class PlaceController : MonoBehaviour
     }
         
     private void UpdateIndicator(){
-        if (placementPoseIsValid)
+        if (placementPoseIsValid && SetIndicatorDisplay)
         {
             placementIndicator.SetActive(true);
             placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);
@@ -104,6 +107,11 @@ public class PlaceController : MonoBehaviour
         {
             SetAllPlanesActive(false);
         }
+    }
+
+    public void ToggleIndicatorDisplay(){
+        SetIndicatorDisplay = !SetIndicatorDisplay;
+ 
     }
 
     void SetAllPlanesActive(bool value)
