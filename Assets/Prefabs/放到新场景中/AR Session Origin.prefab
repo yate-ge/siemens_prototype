@@ -155,14 +155,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3563125445234555611}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7671ba20492894bed90556b9b4105712, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToPlace: {fileID: 0}
-  placementIndicator: {fileID: 913168530558777812, guid: 0463af04e7c8547ef9da6dd0f58071a9,
-    type: 3}
   SetIndicatorDisplay: 1
 --- !u!114 &3563125445234556199
 MonoBehaviour:
