@@ -17,7 +17,7 @@ public class PlaceController : MonoBehaviour
 
     
     public GameObject objectToPlace;
-    public GameObject placementIndicator;
+    private GameObject placementIndicator;
     private Pose placementPose;
 
     private Text debugInfo;
@@ -32,7 +32,8 @@ public class PlaceController : MonoBehaviour
     void Awake() {
         arOrigin = GetComponent<ARSessionOrigin>();
         m_RaycastManager = GetComponent<ARRaycastManager>();
-        m_ARPlaneManager = GetComponent<ARPlaneManager>();        
+        m_ARPlaneManager = GetComponent<ARPlaneManager>();  
+        placementIndicator = (GameObject)UnityEngine.Object.Instantiate(Resources.Load("Indicator"));      
     }
 
     // Start is called before the first frame update

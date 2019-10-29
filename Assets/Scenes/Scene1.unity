@@ -302,6 +302,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: AR Session Origin
       objectReference: {fileID: 0}
+    - target: {fileID: 3563125445234556198, guid: 09e443e1bf3124c80a85ee8d8863c426,
+        type: 3}
+      propertyPath: objectToPlace
+      value: 
+      objectReference: {fileID: 383898855}
+    - target: {fileID: 3563125445234556198, guid: 09e443e1bf3124c80a85ee8d8863c426,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3563125445234556197, guid: 09e443e1bf3124c80a85ee8d8863c426,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -356,16 +366,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3563125445234556198, guid: 09e443e1bf3124c80a85ee8d8863c426,
-        type: 3}
-      propertyPath: objectToPlace
-      value: 
-      objectReference: {fileID: 383898855}
-    - target: {fileID: 3563125445234556198, guid: 09e443e1bf3124c80a85ee8d8863c426,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e443e1bf3124c80a85ee8d8863c426, type: 3}
@@ -644,6 +644,13 @@ PrefabInstance:
       propertyPath: Locator
       value: 
       objectReference: {fileID: 1823300746}
+    - target: {fileID: 6480970234818807289, guid: a68b36d874850474f8837e343ed948e6,
+        type: 3}
+      propertyPath: m_Text
+      value: 'body-locked content
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a68b36d874850474f8837e343ed948e6, type: 3}
 --- !u!1001 &7309361957472086435
